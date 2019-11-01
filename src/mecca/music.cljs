@@ -83,8 +83,8 @@
   (go-loop [result {}
             sounds (range 1 19)]
     (if-not (nil? (first sounds))
-      (let [sound (first sounds)                   ; for Github Pages - remove the '/mecca/resources/public' to run locally
-            decoded-buffer (<! (get-and-decode {:url (str "/audio/" sound ".mp3")
+      (let [sound (first sounds)                   ; for Github Pages - remove the '/mario-music-composer/resources/public' to run locally
+            decoded-buffer (<! (get-and-decode {:url (str "/mario-music-composer/resources/public/audio/" sound ".mp3")
                                                 :sound sound}))]
         (prn sound)
         (prn decoded-buffer)

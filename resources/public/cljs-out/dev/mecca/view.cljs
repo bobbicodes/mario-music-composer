@@ -150,7 +150,7 @@
         (dispatch [:jump-reset]))
       [:svg {:width "100%"
              :view-box "0 0 64 36"
-             :style {:cursor "url(/images/hand.png),crosshair"}}
+             :style {:cursor "url(/mario-music-composer/resources/public/images/hand.png),crosshair"}}
        [mario/cloud 1 1]
        [mario/hill 40]
        [castle/brick-face 363 18 6]
