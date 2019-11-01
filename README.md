@@ -1,4 +1,1 @@
-# mecca-midi
-Clojure library for importing and manipulating MIDI files
-
-Companion [notebook](https://nextjournal.com/btowers/midi-parser) on Nextjournal
+Classic SNES music sequencer in Clojurescript w/ re-frame and Web Audio API featuring MusicXML import, vector graphics, undo/redo and sharps/flats
