@@ -1,3 +1,7 @@
+# mario-music-composer
+
+Classic SNES music sequencer in Clojurescript w/ re-frame and Web Audio API featuring MusicXML import, vector graphics, undo/redo and sharps/flats
+
 ## Start local development server:
 
 I use [Figwheel Main](https://github.com/bhauman/figwheel-main) with the [Clojure CLI tools](https://clojure.org/reference/deps_and_cli). Audio samples are fetched with [core.async](https://github.com/clojure/core.async), and while the app generally follows the [re-frame](https://github.com/Day8/re-frame) pattern, it still does lots of yucky stuff like perform logic in views, side-effecting event handlers, etc. 
